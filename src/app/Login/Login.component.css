@@ -1,0 +1,79 @@
+/*
+.Container
+#LoginContainer
+{
+  font-size: 22px;
+  height:40vh;
+  width: 50vb;
+  margin: 20% 50%;
+  border-radius: 10px;
+  box-shadow: 10px 10px 10px 10px rgb(20, 82, 148);
+  position: fixed;
+  align-items: center;
+}
+.Container
+{
+    background:url("https://wallpapercave.com/wp/pFH9mNV.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    width:100%;
+    margin-top: -20px;
+    height: 100vh;
+    display: block;
+}
+form{
+  display: flex;
+  flex-direction:column;
+  align-items: center;
+}
+input
+{
+  margin:20px;
+  font-size: 22px;
+  text-align: center;
+  border-radius: 10px;
+  border: none;
+  border-style: none;
+}
+input:hover
+{
+  box-shadow: 2px 2px  black;
+}
+h4{
+  margin-left:40%;
+  margin-top: 20px;
+}
+button
+{
+  width:100px;
+  height: 40px;
+  font-size: 22px;
+} */
+.main
+{
+  width: 100%;
+  padding: 50px;
+  float: left;
+  background-color: blanchedalmond;
+
+}
+form{
+  background-color: blueviolet;
+  width: 50%;
+  padding:50px;
+}
+input
+{
+  margin-bottom: 20px;
+}
+button{
+  margin-left: 50px;
+}
+.Container
+{
+  display:grid;
+  grid-template-columns: auto;
+  grid-template-areas:'right';
+  padding: 10% 20%;
+}
